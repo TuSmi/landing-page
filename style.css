@@ -20,6 +20,11 @@ body {
 
 }
 
+.header-title {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .header,
 .hero-container {
     color: white;
@@ -28,7 +33,7 @@ body {
 }
 
 .header {
-    padding-bottom: 32px;
+    padding: 16px 32px;
 }
 
 
@@ -39,11 +44,16 @@ body {
     gap: 8px;
 }
 
+.hero-title {
+    
+}
+
 .hero-container {
     background-color: #1F2937;
     align-items: center;
     padding-bottom: 64px;
     gap: 32px;
+    margin-bottom: 42px;
 }
 
 .placeholder {
@@ -60,6 +70,7 @@ body {
     border: none;
     padding: 8px 32px;
     cursor: pointer;
+    margin-top: 12px;
 }
 
 .title {
@@ -92,6 +103,7 @@ body {
     background-color: #E5E7EB;
     text-align: center;
     padding: 50px;
+    margin-top: 64px;
 
 }
 
@@ -126,9 +138,13 @@ body {
     gap: 64px;
     color: white;
     flex: 0;
-    margin: 24px 48px;
+    margin: 64px;
     border-radius: 8px;
-    padding: 16px;
+    padding: 32px;
+}
+
+.footer {
+    padding: 34px;
 }
 
 p {
@@ -136,6 +152,7 @@ p {
     margin: 0;
 }
 
+h1, 
 h3 {
     padding: 0;
     margin: 0;
