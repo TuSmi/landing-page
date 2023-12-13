@@ -33,7 +33,7 @@ body {
 }
 
 .header {
-    padding: 16px 32px;
+    padding: 16px 32px 32px;
 }
 
 
@@ -45,7 +45,8 @@ body {
 }
 
 .hero-title {
-    
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .hero-container {
@@ -74,7 +75,11 @@ body {
 }
 
 .title {
+    font-size: 36px;
+    font-weight: bold;
     text-align: center;
+    color: #1F2937;
+    margin-bottom: 32px;
 }
 
 .grid {
@@ -101,16 +106,21 @@ body {
 
 .quotesection {
     background-color: #E5E7EB;
-    text-align: center;
+    /* text-align: center; */
     padding: 50px;
     margin-top: 64px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 0;
 
 }
 
 .quotesub {
-    text-align: end;
+    /* text-align: end; */
     color: black;
     font-weight: 700;
+    align-self: flex-end;
 }
 
 .quotemain {
@@ -118,6 +128,7 @@ body {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    width: 500px;
 }
 
 .action-button {
