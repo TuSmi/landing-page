@@ -1,0 +1,154 @@
+body {
+    font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.card,
+.placeholder,
+.footer-text {
+    color: #E5E7EB;
+
+}
+
+.header,
+.hero-container,
+.footer {
+    background-color: #1F2937;
+
+}
+
+.header,
+.hero-container {
+    color: white;
+    display: flex;
+    padding: 0px 100px;
+}
+
+.header {
+    padding-bottom: 32px;
+}
+
+
+.header-links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 8px;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    align-items: center;
+    padding-bottom: 64px;
+    gap: 32px;
+}
+
+.placeholder {
+    width: 300px;
+    background-color: gray;
+    padding: 80px 100px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    padding: 8px 32px;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 100px;
+}
+
+.card {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #4d87e4;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.text {
+    text-align: center;
+}
+
+.quotesection {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.quotesub {
+    text-align: end;
+    color: black;
+    font-weight: 700;
+}
+
+.quotemain {
+    font-size:  36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.action-button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 8px 32px;
+    cursor: pointer;
+}
+
+.call {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    color: white;
+    flex: 0;
+    margin: 24px 48px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul, 
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
